@@ -1,0 +1,161 @@
+/* style.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  color: #333; /* Default text color */
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header {
+  background: #2c3e50; /* Dark blue */
+  color: #fff;
+  padding: 20px 0;
+}
+
+.container h1 {
+  margin: 0;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: 'Arial Black', sans-serif; /* Different font */
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  background: #34495e; /* Darker blue on hover */
+}
+
+section {
+  padding: 40px 0; /* Increased padding */
+}
+
+section#about {
+  background: #f0f0f0; /* Light gray */
+  color: #555; /* Darker text color */
+  text-align: center;
+}
+
+section#skills {
+  background: #3498db; /* Blue */
+  color: #fff; /* White text color */
+}
+
+section#projects {
+  background: #2ecc71; /* Green */
+  color: #fff; /* White text color */
+}
+
+section#education {
+  background: #9b59b6; /* Purple */
+  color: #fff; /* White text color */
+}
+
+section#experience {
+  background: #e67e22; /* Orange */
+  color: #fff; /* White text color */
+}
+
+section#contact {
+  background: #e74c3c; /* Red */
+  color: #fff; /* White text color */
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Arial Black', sans-serif; /* Different font */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* style.css */
+
+.project {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow */
+  color: #333; /* Text color */
+}
+
+.project h3 {
+  color: #2c3e50; /* Dark blue for project titles */
+}
+
+.project p {
+  color: #555; /* Darker text color */
+}
+
+form {
+  max-width: 500px;
+  margin: auto;
+}
+
+label, input, textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  background: #2c3e50; /* Dark blue */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background: #34495e; /* Darker blue on hover */
+}
